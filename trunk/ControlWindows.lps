@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="8">
+      <Unit0>
+        <Filename Value="ControlWindows.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="ufrmcwimain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmcwimain"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="231"/>
+        <CursorPos X="31" Y="233"/>
+        <UsageCount Value="20"/>
+        <Bookmarks Count="2">
+          <Item0 X="65" Y="89" ID="1"/>
+          <Item1 X="68" Y="194" ID="2"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="C:\lazarus\lcl\comctrls.pp"/>
+        <UnitName Value="ComCtrls"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="3417"/>
+        <CursorPos X="14" Y="3433"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="C:\lazarus\fpc\2.6.4\source\rtl\win\wininc\base.inc"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="627"/>
+        <CursorPos X="53" Y="643"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\lazarus\fpc\2.6.4\source\rtl\win\wininc\func.inc"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="611"/>
+        <CursorPos X="26" Y="627"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="C:\lazarus\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="726"/>
+        <CursorPos X="14" Y="741"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\lazarus\fpc\2.6.4\source\rtl\win\wininc\messages.inc"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="990"/>
+        <CursorPos X="6" Y="1006"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\lazarus\fpc\2.6.4\source\rtl\win\wininc\defines.inc"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="5126"/>
+        <CursorPos X="6" Y="5136"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit7>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="186" TopLine="184"/>
+      </Position1>
+      <Position2>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="187" TopLine="185"/>
+      </Position2>
+      <Position3>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="197" Column="9" TopLine="190"/>
+      </Position3>
+      <Position4>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="183" TopLine="181"/>
+      </Position4>
+      <Position5>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="188" Column="61" TopLine="186"/>
+      </Position5>
+      <Position6>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="202" Column="48" TopLine="184"/>
+      </Position6>
+      <Position7>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="170" Column="38" TopLine="168"/>
+      </Position7>
+      <Position8>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="176" Column="33" TopLine="168"/>
+      </Position8>
+      <Position9>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="178" Column="33" TopLine="170"/>
+      </Position9>
+      <Position10>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="187" Column="66" TopLine="183"/>
+      </Position10>
+      <Position11>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="172" Column="3" TopLine="170"/>
+      </Position11>
+      <Position12>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="171" Column="3" TopLine="169"/>
+      </Position12>
+      <Position13>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="173" Column="3" TopLine="171"/>
+      </Position13>
+      <Position14>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="185" Column="106" TopLine="176"/>
+      </Position14>
+      <Position15>
+        <Filename Value="ufrmcwimain.pas"/>
+      </Position15>
+      <Position16>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="2" Column="49"/>
+      </Position16>
+      <Position17>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="77" Column="38" TopLine="74"/>
+      </Position17>
+      <Position18>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="94" Column="9" TopLine="74"/>
+      </Position18>
+      <Position19>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="193" Column="31" TopLine="189"/>
+      </Position19>
+      <Position20>
+        <Filename Value="ufrmcwimain.pas"/>
+      </Position20>
+      <Position21>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="81" Column="54" TopLine="65"/>
+      </Position21>
+      <Position22>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="89" Column="28" TopLine="65"/>
+      </Position22>
+      <Position23>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="191" Column="68" TopLine="165"/>
+      </Position23>
+      <Position24>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="88" TopLine="72"/>
+      </Position24>
+      <Position25>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="191" Column="68" TopLine="175"/>
+      </Position25>
+      <Position26>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="81" TopLine="72"/>
+      </Position26>
+      <Position27>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="88" Column="65" TopLine="72"/>
+      </Position27>
+      <Position28>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="195" Column="5" TopLine="175"/>
+      </Position28>
+      <Position29>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="89" Column="68" TopLine="72"/>
+      </Position29>
+      <Position30>
+        <Filename Value="ufrmcwimain.pas"/>
+        <Caret Line="183" Column="16" TopLine="178"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
