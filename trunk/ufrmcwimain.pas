@@ -107,38 +107,31 @@ var
 begin
   Result := True;
   try
-    if IsWindow(wnd) then
-    begin
-      SetLength(caption, MAX_PATH);
-      SetLength(cname, MAX_PATH);
-      SetLength(processo, MAX_PATH);
-
-      SetLength(caption, GetWindowText(wnd, PChar(caption), MAX_PATH));
-      SetLength(cname, GetClassName(wnd, PChar(cname), MAX_PATH));
-      processo := GetWindowFileName(wnd);
-      if caption <> '' then
-      begin
-        infoWindow := TInfoWindow.Create;
-        infoWindow.handle := wnd;
-        infoWindow.id := GetDlgCtrlID(wnd);
-        infoWindow.process := processo;
-        infoWindow.caption := caption;
-        infoWindow.cname := cname;
-        infoWindow.node := frmcwimain.trvWindows.Items.AddChildObject(
-          nil,
-          infoWindow.caption + ' [' + infoWindow.cname + ']',
-          infoWindow
-        );
-        frmcwimain.trvWindows.Items.AddChild(infoWindow.node, '-');
-        Result := True;
-      end;
-    end;
+    SetLength(caption, MAX_PATH);
+    SetLength(cname, MAX_PATH);
+    SetLength(processo, MAX_PATH);
+    SetLength(caption, GetWindowText(wnd, PChar(caption), MAX_PATH));
+    SetLength(cname, GetClassName(wnd, PChar(cname), MAX_PATH));
+    processo := GetWindowFileName(wnd);
+    infoWindow := TInfoWindow.Create;
+    infoWindow.handle := wnd;
+    infoWindow.id := GetDlgCtrlID(wnd);
+    infoWindow.process := processo;
+    infoWindow.caption := caption;
+    infoWindow.cname := cname;
+    infoWindow.node := frmcwimain.trvWindows.Items.AddChildObject(
+      nil,
+      infoWindow.caption + ' [' + infoWindow.cname + ']',
+      infoWindow
+    );
+    frmcwimain.trvWindows.Items.AddChild(infoWindow.node, '-');
+    Result := True;
   except
     Exit;
   end;
 end;
 
-function CallBackEnumChildWindows(wnd: HWND; ParentInfoWindow: LPARAM): BOOL; stdcall;
+function CallBackEnumChildWindows(wnd: HWND; lParam: LPARAM): BOOL; stdcall;
 var
   hwnd,
   caption: array[0..255] of char;
@@ -181,9 +174,9 @@ end;
 
 procedure Tfrmcwimain.btnSaveClick(Sender: TObject);
 var
-  scaption: String;
+  scaption: array[0..250] of Char;
 begin
-  caption := edtCaption.Text;
+  scaption := edtCaption.Text;
   SendMessage(infoWindowExpand.handle, WM_SETTEXT, 0, Integer(PChar(scaption)));
 end;
 
@@ -234,7 +227,9 @@ begin
 end;
 
 procedure Tfrmcwimain.trvWindowsClick(Sender: TObject);
-begin                            ;
+begin
+  if not Assigned(trvWindows.Selected) then
+     Exit;
   infoWindowExpand := TInfoWindow(trvWindows.Selected.Data);
   edtID.Text := IntToStr(infoWindowExpand.id);
   edtHandle.Text := IntToStr(infoWindowExpand.handle);

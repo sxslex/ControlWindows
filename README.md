@@ -3,7 +3,7 @@
 ControlWindows.exe
 
 Program to view and control all the windows open.
-You can also control some features of these windows .
+You can also control some features of these windows.
 
 ## Binary
 [ControlWindows.exe](https://github.com/sxslex/ControlWindows/blob/master/trunk/ControlWindows.exe?raw=true)
