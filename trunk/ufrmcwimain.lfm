@@ -1,11 +1,11 @@
 object frmcwimain: Tfrmcwimain
-  Left = 448
+  Left = 422
   Height = 412
-  Top = 147
-  Width = 578
+  Top = 199
+  Width = 541
   Caption = 'ControlWindows - by sx.slex@gmail.com'
   ClientHeight = 412
-  ClientWidth = 578
+  ClientWidth = 541
   OnCreate = FormCreate
   Position = poScreenCenter
   LCLVersion = '1.4.2.0'
@@ -13,10 +13,10 @@ object frmcwimain: Tfrmcwimain
     Left = 0
     Height = 50
     Top = 0
-    Width = 578
+    Width = 541
     Align = alTop
     ClientHeight = 50
-    ClientWidth = 578
+    ClientWidth = 541
     TabOrder = 0
     object btnRefresh: TButton
       Left = 19
@@ -29,7 +29,7 @@ object frmcwimain: Tfrmcwimain
     end
   end
   object pnlRight: TPanel
-    Left = 280
+    Left = 243
     Height = 362
     Top = 50
     Width = 298
@@ -101,6 +101,7 @@ object frmcwimain: Tfrmcwimain
       Height = 29
       Top = 145
       Width = 75
+      Anchors = [akTop, akRight]
       Caption = 'save'
       Enabled = False
       OnClick = btnSaveClick
@@ -166,7 +167,7 @@ object frmcwimain: Tfrmcwimain
     end
   end
   object Splitter1: TSplitter
-    Left = 275
+    Left = 238
     Height = 362
     Top = 50
     Width = 5
@@ -177,7 +178,7 @@ object frmcwimain: Tfrmcwimain
     Left = 0
     Height = 362
     Top = 50
-    Width = 275
+    Width = 238
     Align = alClient
     DefaultItemHeight = 16
     ReadOnly = True

@@ -21,8 +21,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="117"/>
-        <CursorPos X="53" Y="134"/>
+        <TopLine Value="118"/>
+        <CursorPos X="52" Y="123"/>
         <UsageCount Value="26"/>
         <Bookmarks Count="2">
           <Item0 X="65" Y="89" ID="1"/>
@@ -86,7 +86,7 @@
         <Loaded Value="True"/>
       </Unit8>
     </Units>
-    <JumpHistory Count="30" HistoryIndex="29">
+    <JumpHistory Count="29" HistoryIndex="28">
       <Position1>
         <Filename Value="ufrmcwimain.pas"/>
         <Caret Line="178" Column="33" TopLine="170"/>
@@ -201,10 +201,6 @@
         <Filename Value="ufrmcwimain.pas"/>
         <Caret Line="167" Column="3" TopLine="165"/>
       </Position29>
-      <Position30>
-        <Filename Value="ufrmcwimain.pas"/>
-        <Caret Line="107" Column="21" TopLine="227"/>
-      </Position30>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>
